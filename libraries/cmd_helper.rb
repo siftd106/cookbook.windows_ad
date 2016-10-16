@@ -20,6 +20,7 @@ class CmdHelper
       end
     end
     dn << dc_partial_dn(domain)
+    "\"#{dn}\""
   end
 
   def self.ou_partial_dn(ou)
